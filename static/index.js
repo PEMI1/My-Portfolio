@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.getElementById("contact-form");
     const successMessage = document.getElementById("success-message");
     const contactFormElement = document.getElementById("contact-message-form");
-
+    //toggle contact icon
     contactIcon.addEventListener("click", function () {
         if (contactForm.style.display === "none" || contactForm.style.display === "") {
             contactForm.style.display = "block";
